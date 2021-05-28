@@ -13,11 +13,29 @@
     padding: 5px;
     margin-left: 8px;
 }
+
+
 .dark {
     background-color: #222;
     color: #e6e6e6;
     color: white;
    
+}
+.dark .home .content h3{
+    color:white;
+    font-size: 6rem;
+}
+
+
+.dark .home .content p{
+    color:white;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+.dark *{
+    color:white;
+    font-size: 2rem;
+    padding:1rem 0;
 }
 .dark p, .dark h3, .dark .heading, .dark li ,.dark .content {
     color: #e6e6e6;
@@ -27,11 +45,10 @@
     color:white;
 }
 
-.dark body{
-    color:white;
-}
+
 .darknav {
     background-color: #222;
+    width: 1200px;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -41,8 +58,53 @@
     outline: none; border:none;
     text-transform: capitalize;
     transition:all .2s linear;
+  
 }
 
+.dark .content{
+    flex:1 1 39rem;
+}
+
+.dark .content h3{
+    color:rgb(255, 255, 255);
+    font-size: 6rem;
+}
+
+.dark .content p{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.dark .about .content{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.dark .about .content h3{
+    font-size: 4rem;
+    color:white;
+}
+
+.dark .about .content p{
+    font-size: 1.6rem;
+    color:white;
+    padding:1rem 0;
+}
+
+.dark .menu .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    color:white;
+}
+
+.dark .menu .row .content .info p{
+    padding:1rem 0;
+    padding-left: 4.5rem;
+    font-size: 1.5rem;
+    color:white;
+}
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
@@ -254,6 +316,8 @@ header #menu-bar{
     color:black;
     padding:1rem 0;
 }
+
+
 
 .menu .list{
     display: flex;
