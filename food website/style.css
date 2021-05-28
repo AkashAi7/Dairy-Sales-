@@ -105,6 +105,17 @@
     font-size: 1.5rem;
     color:white;
 }
+
+.dark .btn{
+    font-size: 1.7rem;
+    padding:.7rem 4rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    background:none;
+    color:white;
+    cursor: pointer;
+    border:.2rem solid var(--yellow);
+}
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
